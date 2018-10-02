@@ -1,0 +1,84 @@
+<div class="px-dataBinding-widget-default">
+  
+  <div class="px-dataBinding-widget-area">
+    <div class="px-dataBinding-widget-hedding">
+      <h3> {{mainTitle}} </h3>
+    </div>
+    <div class="px-dataBinding-widget-sub-title">
+      <p></p>
+    </div>
+   
+    <div class="px-dataBinding-widget-content-block">
+      <div class="px-dataBinding-widget-section">
+        <h4>interpolation</h4>
+        <div class="px-dataBinding-widget-section-cnt">
+       <div class="code-display clm2">
+
+       </div> 
+       <div class="code-result clm2">
+       <span>{{ interpolationText }}</span>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="px-dataBinding-widget-content-block">
+      <div class="px-dataBinding-widget-section">
+        <h4>Property binding</h4>
+        <div class="px-dataBinding-widget-section-cnt">
+       <div class="code-display clm2">
+
+       </div> 
+       <div class="code-result clm2">
+       <img [src]="PropertyBindingsrc" height="180px">
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="px-dataBinding-widget-content-block">
+      <div class="px-dataBinding-widget-section">
+        <h4>Two-way Binding</h4>
+        <div class="px-dataBinding-widget-section-cnt">
+       <div class="code-display clm2">
+
+       </div> 
+       <div class="code-result clm2">
+        <input  type="text" [(ngModel)]="title">
+       <span>{{ title }}</span>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="px-login-v1-widget-default">
+  <div class="px-social-login-widget-area">
+    <div class="px-social-login-widget-hedding">
+      <h3> Login </h3>
+    </div>
+    <div class="px-social-login-widget-sub-title">
+      <p> Login for your account </p>
+    </div>
+    
+    <div class="px-social-login-widget-content-block">
+        <form class="form-inline au-target"> 
+            <div class="form-group"> 
+             <label>  Your Name  </label> 
+             <input type="text" > 
+            </div> 
+            <div class="au-target form-group"> 
+             <label >  Your Password  </label> 
+             <input type="password" > 
+            </div>
+
+              <div class="form-group actions"> 
+             <button type="submit" class="btn primary-button submit-btn">Login </button> 
+            </div>
+           </form>
+
+    </div>
+  </div>
+</div>
